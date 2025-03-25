@@ -134,12 +134,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
+    justifyContent: "center",
     backgroundColor: "#F5F5F5",
   },
   title: {
     fontSize: 30,
     fontWeight: "bold",
-    marginTop: "15%",
     marginBottom: 20,
   },
   input: {
