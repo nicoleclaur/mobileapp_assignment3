@@ -20,13 +20,6 @@ const Home = () => {
       >
         <Text style={styles.buttonText}>Sign Up</Text>
       </TouchableOpacity>
-
-      {/* <TouchableOpacity
-        style={styles.button}
-        onPress={() => router.push("/employeeForm")}
-      >
-        <Text style={styles.buttonText}>Employee Form</Text>
-      </TouchableOpacity> */}
     </View>
   );
 };
