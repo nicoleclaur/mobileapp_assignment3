@@ -20,7 +20,7 @@ const employeeSchema = Yup.object().shape({
   department: Yup.string()
     .oneOf(
       ["Technology", "Business", "Marketing", "Sales", "HR"],
-      "Invalid department"
+      "Invalid department. Hint: Technology, Business, Marketing, Sales, HR"
     )
     .required("Department is required"),
   dateOfBirth: Yup.string()
