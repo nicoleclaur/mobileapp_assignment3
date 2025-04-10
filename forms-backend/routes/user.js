@@ -67,3 +67,8 @@ router.post("/signin", async (req, res) => {
     res.status(500).json({ msg: "Server error" });
   }
 });
+
+// ... your signin route
+
+module.exports = router;
+
